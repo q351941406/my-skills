@@ -1,20 +1,35 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-07-18 16:47:01 UTC）。
+由 MultiAgentSystem 自动生成（2026-07-18 17:01:10 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## 目录
 
-- [greensock/gsap-skills](#src-1)
-- [K-Dense-AI/scientific-agent-skills](#src-2)
-- [Leonxlnx/taste-skill](#src-3)
-- [nextlevelbuilder/ui-ux-pro-max-skill](#src-4)
-- [phuryn/pm-skills](#src-5)
+- [emilkowalski/skills](#src-1)
+- [greensock/gsap-skills](#src-2)
+- [K-Dense-AI/scientific-agent-skills](#src-3)
+- [Leonxlnx/taste-skill](#src-4)
+- [nextlevelbuilder/ui-ux-pro-max-skill](#src-5)
+- [phuryn/pm-skills](#src-6)
 - [本地技能](#local)
 
 ## GitHub 来源
 
 <a id="src-1"></a>
+### emilkowalski/skills
+
+原始仓库: https://github.com/emilkowalski/skills.git
+
+| 安装名 | 子路径 | 描述 |
+| --- | --- | --- |
+| `animation-vocabulary` | `skills/animation-vocabulary` | Reverse-lookup glossary that turns a vague description of a web animation or mot |
+| `apple-design` | `skills/apple-design` | Apple's approach to interface design and fluid, physical motion, translated for  |
+| `emil-design-eng` | `skills/emil-design-eng` | This skill encodes Emil Kowalski's philosophy on UI polish, component design, an |
+| `find-animation-opportunities` | `skills/find-animation-opportunities` | Search a codebase or UI for places that don't animate but should, and reject eve |
+| `improve-animations` | `skills/improve-animations` | Survey a codebase's animation and motion code as a senior motion advisor, then p |
+| `review-animations` | `skills/review-animations` | Reviews animation and motion code against a high craft bar derived from Emil Kow |
+
+<a id="src-2"></a>
 ### greensock/gsap-skills
 
 原始仓库: https://github.com/greensock/gsap-skills.git
@@ -30,7 +45,7 @@
 | `gsap-timeline` | `skills/gsap-timeline` | Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting |
 | `gsap-utils` | `skills/gsap-utils` | Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, ra |
 
-<a id="src-2"></a>
+<a id="src-3"></a>
 ### K-Dense-AI/scientific-agent-skills
 
 原始仓库: https://github.com/K-Dense-AI/scientific-agent-skills.git
@@ -187,7 +202,7 @@
 | `xlsx` | `skills/xlsx` | Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm) where the wo |
 | `zarr-python` | `skills/zarr-python` | Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, paralle |
 
-<a id="src-3"></a>
+<a id="src-4"></a>
 ### Leonxlnx/taste-skill
 
 原始仓库: https://github.com/Leonxlnx/taste-skill.git
@@ -208,7 +223,7 @@
 | `redesign-existing-projects` | `skills/redesign-skill` | Upgrades existing websites and apps to premium quality. Audits current design, i |
 | `stitch-design-taste` | `skills/stitch-skill` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN. |
 
-<a id="src-4"></a>
+<a id="src-5"></a>
 ### nextlevelbuilder/ui-ux-pro-max-skill
 
 原始仓库: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
@@ -223,7 +238,7 @@
 | `ui-styling` | `.claude/skills/ui-styling` | Create beautiful, accessible user interfaces with shadcn/ui components (built on |
 | `ui-ux-pro-max` | `.claude/skills/ui-ux-pro-max` | UI/UX design intelligence for web and mobile. Searchable local database with 84  |
 
-<a id="src-5"></a>
+<a id="src-6"></a>
 ### phuryn/pm-skills
 
 原始仓库: https://github.com/phuryn/pm-skills.git
