@@ -1,9 +1,22 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-07-18 15:03:55 UTC）。
+由 MultiAgentSystem 自动生成（2026-07-18 15:41:37 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## GitHub 来源
+
+### https://github.com/greensock/gsap-skills.git
+
+| 安装名 | 子路径 | 描述 |
+| --- | --- | --- |
+| `gsap-core` | `skills/gsap-core` | Official GSAP skill for the core API — gsap.to(), from(), fromTo(), easing, dura |
+| `gsap-frameworks` | `skills/gsap-frameworks` | Official GSAP skill for Vue, Svelte, and other non-React frameworks — lifecycle, |
+| `gsap-performance` | `skills/gsap-performance` | Official GSAP skill for performance — prefer transforms, avoid layout thrashing, |
+| `gsap-plugins` | `skills/gsap-plugins` | Official GSAP skill for GSAP plugins — registration, ScrollToPlugin, ScrollSmoot |
+| `gsap-react` | `skills/gsap-react` | Official GSAP skill for React — useGSAP hook, refs, gsap.context(), cleanup. Use |
+| `gsap-scrolltrigger` | `skills/gsap-scrolltrigger` | Official GSAP skill for ScrollTrigger — scroll-linked animations, pinning, scrub |
+| `gsap-timeline` | `skills/gsap-timeline` | Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting |
+| `gsap-utils` | `skills/gsap-utils` | Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, ra |
 
 ### https://github.com/Leonxlnx/taste-skill.git
 
