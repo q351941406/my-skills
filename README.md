@@ -1,6 +1,6 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-07-18 17:01:10 UTC）。
+由 MultiAgentSystem 自动生成（2026-07-18 19:15:05 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## 目录
@@ -9,8 +9,9 @@
 - [greensock/gsap-skills](#src-2)
 - [K-Dense-AI/scientific-agent-skills](#src-3)
 - [Leonxlnx/taste-skill](#src-4)
-- [nextlevelbuilder/ui-ux-pro-max-skill](#src-5)
-- [phuryn/pm-skills](#src-6)
+- [mattpocock/skills](#src-5)
+- [nextlevelbuilder/ui-ux-pro-max-skill](#src-6)
+- [phuryn/pm-skills](#src-7)
 - [本地技能](#local)
 
 ## GitHub 来源
@@ -224,6 +225,55 @@
 | `stitch-design-taste` | `skills/stitch-skill` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN. |
 
 <a id="src-5"></a>
+### mattpocock/skills
+
+原始仓库: https://github.com/mattpocock/skills.git
+
+| 安装名 | 子路径 | 描述 |
+| --- | --- | --- |
+| `ask-matt` | `skills/engineering/ask-matt` | Ask which skill or flow fits your situation. A router over the skills in this re |
+| `batch-grill-me` | `skills/in-progress/batch-grill-me` | A relentless interview that asks every frontier question at once, round by round |
+| `claude-handoff` | `skills/in-progress/claude-handoff` | Hand the current conversation off to a fresh background agent that picks up the  |
+| `codebase-design` | `skills/engineering/codebase-design` | Shared vocabulary for designing deep modules. Use when the user wants to design  |
+| `code-review` | `skills/engineering/code-review` | Review the changes since a fixed point (commit, branch, tag, or merge-base) alon |
+| `design-an-interface` | `skills/deprecated/design-an-interface` | Generate multiple radically different interface designs for a module using paral |
+| `diagnosing-bugs` | `skills/engineering/diagnosing-bugs` | Diagnosis loop for hard bugs and performance regressions. Use when the user says |
+| `domain-modeling` | `skills/engineering/domain-modeling` | Build and sharpen a project's domain model. Use when the user wants to pin down  |
+| `edit-article` | `skills/personal/edit-article` | Edit and improve articles by restructuring sections, improving clarity, and tigh |
+| `git-guardrails-claude-code` | `skills/misc/git-guardrails-claude-code` | Set up Claude Code hooks to block dangerous git commands (push, reset --hard, cl |
+| `grilling` | `skills/productivity/grilling` | Grill the user relentlessly about a plan, decision, or idea. Use when the user w |
+| `grill-me` | `skills/productivity/grill-me` | A relentless interview to sharpen a plan or design. |
+| `grill-with-docs` | `skills/engineering/grill-with-docs` | A relentless interview to sharpen a plan or design, which also creates docs (ADR |
+| `handoff` | `skills/productivity/handoff` | Compact the current conversation into a handoff document for another agent to pi |
+| `implement` | `skills/engineering/implement` | Implement a piece of work based on a spec or set of tickets. |
+| `improve-codebase-architecture` | `skills/engineering/improve-codebase-architecture` | Scan a codebase for deepening opportunities, present them as a visual HTML repor |
+| `loop-me` | `skills/in-progress/loop-me` | Grill me about specs for the workflows I want to build, within this workspace. |
+| `migrate-to-shoehorn` | `skills/misc/migrate-to-shoehorn` | Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use  |
+| `obsidian-vault` | `skills/personal/obsidian-vault` | Search, create, and manage notes in the Obsidian vault with wikilinks and index  |
+| `prototype` | `skills/engineering/prototype` | Build a throwaway prototype to answer a design question. Use when the user wants |
+| `qa` | `skills/deprecated/qa` | Interactive QA session where user reports bugs or issues conversationally, and t |
+| `request-refactor-plan` | `skills/deprecated/request-refactor-plan` | Create a detailed refactor plan with tiny commits via user interview, then file  |
+| `research` | `skills/engineering/research` | Investigate a question against high-trust primary sources and capture the findin |
+| `resolving-merge-conflicts` | `skills/engineering/resolving-merge-conflicts` | Use when you need to resolve an in-progress git merge/rebase conflict. |
+| `scaffold-exercises` | `skills/misc/scaffold-exercises` | Create exercise directory structures with sections, problems, solutions, and exp |
+| `setup-matt-pocock-skills` | `skills/engineering/setup-matt-pocock-skills` | Configure this repo for the engineering skills — set up its issue tracker, triag |
+| `setup-pre-commit` | `skills/misc/setup-pre-commit` | Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and te |
+| `setup-ts-deep-modules` | `skills/in-progress/setup-ts-deep-modules` | Wire dependency-cruiser into a TypeScript repo so each package is a deep module  |
+| `tdd` | `skills/engineering/tdd` | Test-driven development. Use when the user wants to build features or fix bugs t |
+| `teach` | `skills/productivity/teach` | Teach the user a new skill or concept, within this workspace. |
+| `to-questionnaire` | `skills/in-progress/to-questionnaire` | Turn a decision you can't fully answer into a questionnaire for someone else to  |
+| `to-spec` | `skills/engineering/to-spec` | Turn the current conversation into a spec and publish it to the project issue tr |
+| `to-tickets` | `skills/engineering/to-tickets` | Break a plan, spec, or the current conversation into a set of tracer-bullet tick |
+| `triage` | `skills/engineering/triage` | Move issues and external PRs through a state machine of triage roles — categoris |
+| `ubiquitous-language` | `skills/deprecated/ubiquitous-language` | Extract a DDD-style ubiquitous language glossary from the current conversation,  |
+| `wayfinder` | `skills/engineering/wayfinder` | Plan a huge chunk of work — more than one agent session can hold — as a shared m |
+| `wizard` | `skills/in-progress/wizard` | Generate an interactive bash wizard that walks a human through a manual procedur |
+| `writing-beats` | `skills/in-progress/writing-beats` | Writing, exploit — assemble raw material into a journey of beats, grounding each |
+| `writing-fragments` | `skills/in-progress/writing-fragments` | Writing, explore — mine raw fragments, no structure yet. |
+| `writing-great-skills` | `skills/productivity/writing-great-skills` | Reference for writing and editing skills well — the vocabulary and principles th |
+| `writing-shape` | `skills/in-progress/writing-shape` | Writing, exploit — shape raw material into an article, paragraph by paragraph. |
+
+<a id="src-6"></a>
 ### nextlevelbuilder/ui-ux-pro-max-skill
 
 原始仓库: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
@@ -238,7 +288,7 @@
 | `ui-styling` | `.claude/skills/ui-styling` | Create beautiful, accessible user interfaces with shadcn/ui components (built on |
 | `ui-ux-pro-max` | `.claude/skills/ui-ux-pro-max` | UI/UX design intelligence for web and mobile. Searchable local database with 84  |
 
-<a id="src-6"></a>
+<a id="src-7"></a>
 ### phuryn/pm-skills
 
 原始仓库: https://github.com/phuryn/pm-skills.git
