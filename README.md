@@ -1,14 +1,15 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-07-18 15:43:02 UTC）。
+由 MultiAgentSystem 自动生成（2026-07-18 16:47:01 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## 目录
 
 - [greensock/gsap-skills](#src-1)
-- [Leonxlnx/taste-skill](#src-2)
-- [nextlevelbuilder/ui-ux-pro-max-skill](#src-3)
-- [phuryn/pm-skills](#src-4)
+- [K-Dense-AI/scientific-agent-skills](#src-2)
+- [Leonxlnx/taste-skill](#src-3)
+- [nextlevelbuilder/ui-ux-pro-max-skill](#src-4)
+- [phuryn/pm-skills](#src-5)
 - [本地技能](#local)
 
 ## GitHub 来源
@@ -30,6 +31,163 @@
 | `gsap-utils` | `skills/gsap-utils` | Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, ra |
 
 <a id="src-2"></a>
+### K-Dense-AI/scientific-agent-skills
+
+原始仓库: https://github.com/K-Dense-AI/scientific-agent-skills.git
+
+| 安装名 | 子路径 | 描述 |
+| --- | --- | --- |
+| `adaptyv` | `skills/adaptyv` | How to use the Adaptyv Bio Foundry API and Python SDK for protein experiment des |
+| `aeon` | `skills/aeon` | This skill should be used for time series machine learning tasks including class |
+| `anndata` | `skills/anndata` | Data structure for annotated matrices in single-cell analysis. Use when working  |
+| `arbor` | `skills/arbor` | Autonomously improve a real artifact (code, training recipe, agent harness, data |
+| `arboreto` | `skills/arboreto` | Infer gene regulatory networks (GRNs) from gene expression data using scalable a |
+| `astropy` | `skills/astropy` | Core Python library for astronomy and astrophysics workflows that need Astropy A |
+| `autoskill` | `skills/autoskill` | Observe the user's screen via screenpipe, detect repeated research workflows, ma |
+| `benchling-integration` | `skills/benchling-integration` | Benchling Python SDK and REST API integration for registry entities, inventory,  |
+| `bgpt-paper-search` | `skills/bgpt-paper-search` | Search scientific papers and retrieve structured experimental data extracted fro |
+| `bids` | `skills/bids` | > |
+| `biopython` | `skills/biopython` | Comprehensive molecular biology toolkit. Use for sequence manipulation, file par |
+| `bioservices` | `skills/bioservices` | Unified Python interface to 40+ bioinformatics services. Use when querying multi |
+| `bulk-rnaseq` | `skills/bulk-rnaseq` | End-to-end bulk RNA-seq orchestrator — takes raw FASTQ reads through QC and trim |
+| `cellxgene-census` | `skills/cellxgene-census` | Query the CZ CELLxGENE Census programmatically for versioned public single-cell  |
+| `cirq` | `skills/cirq` | Google quantum computing framework. Use when targeting Google Quantum AI hardwar |
+| `citation-management` | `skills/citation-management` | Comprehensive citation management for academic research. Search Google Scholar a |
+| `clinical-decision-support` | `skills/clinical-decision-support` | Generate professional clinical decision support (CDS) documents for pharmaceutic |
+| `clinical-reports` | `skills/clinical-reports` | Write comprehensive clinical reports including case reports (CARE guidelines), d |
+| `cobrapy` | `skills/cobrapy` | Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux samp |
+| `consciousness-council` | `skills/consciousness-council` | Run a multi-perspective Mind Council deliberation on any question, decision, or  |
+| `dask` | `skills/dask` | Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you n |
+| `database-lookup` | `skills/database-lookup` | Query documented public database APIs with explicit endpoints, filters, paginati |
+| `datamol` | `skills/datamol` | Pythonic wrapper around RDKit with simplified interface and sensible defaults. P |
+| `deepchem` | `skills/deepchem` | Molecular ML with diverse featurizers and pre-built datasets. Use for property p |
+| `deeptools` | `skills/deeptools` | NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprin |
+| `depmap` | `skills/depmap` | Query the Cancer Dependency Map (DepMap) for cancer cell line gene dependency sc |
+| `dhdna-profiler` | `skills/dhdna-profiler` | Extract cognitive patterns and thinking fingerprints from any text. Use this ski |
+| `diffdock` | `skills/diffdock` | DiffDock and DiffDock-L molecular docking. Use for protein-small-molecule pose p |
+| `dnanexus-integration` | `skills/dnanexus-integration` | DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/downlo |
+| `docx` | `skills/docx` | Use this skill whenever the user wants to create, read, edit, or manipulate Word |
+| `esm` | `skills/esm` | Use when working directly with the `esm` Python SDK, ESM3 or ESMC model IDs, For |
+| `etetoolkit` | `skills/etetoolkit` | Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary ev |
+| `exa-search` | `skills/exa-search` | Web toolkit powered by Exa, tuned for scientific and technical content. Use this |
+| `experimental-design` | `skills/experimental-design` | Design experiments and studies BEFORE data is collected — choosing a design, ran |
+| `exploratory-data-analysis` | `skills/exploratory-data-analysis` | Perform comprehensive exploratory data analysis on scientific data files across  |
+| `flowio` | `skills/flowio` | Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arra |
+| `fluidsim` | `skills/fluidsim` | Framework for computational fluid dynamics simulations using Python. Use when ru |
+| `generate-image` | `skills/generate-image` | Generate or edit images using AI models (FLUX, Nano Banana 2). Use for general-p |
+| `geniml` | `skills/geniml` | This skill should be used when working with genomic interval data (BED files) fo |
+| `geomaster` | `skills/geomaster` | Comprehensive geospatial science skill covering remote sensing, GIS, spatial ana |
+| `geopandas` | `skills/geopandas` | Python library for working with geospatial vector data including shapefiles, Geo |
+| `get-available-resources` | `skills/get-available-resources` | This skill should be used at the start of any computationally intensive scientif |
+| `gget` | `skills/gget` | Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups:  |
+| `ginkgo-cloud-lab` | `skills/ginkgo-cloud-lab` | Submit and manage protocols on Ginkgo Bioworks Cloud Lab (cloud.ginkgo.bio), a w |
+| `glycoengineering` | `skills/glycoengineering` | Analyze and engineer protein glycosylation. Scan sequences for N-glycosylation s |
+| `gtars` | `skills/gtars` | High-performance toolkit for genomic interval analysis in Rust with Python bindi |
+| `histolab` | `skills/histolab` | Lightweight WSI tile extraction and preprocessing. Use for basic slide processin |
+| `hugging-science` | `skills/hugging-science` | Use when the user is doing AI/ML work in a scientific domain such as biology, ch |
+| `hypogenic` | `skills/hypogenic` | Automated LLM-driven hypothesis generation and testing on tabular datasets. Use  |
+| `hypothesis-generation` | `skills/hypothesis-generation` | Structured hypothesis formulation from observations. Use when you have experimen |
+| `imaging-data-commons` | `skills/imaging-data-commons` | Query and download public cancer imaging data from NCI Imaging Data Commons usin |
+| `infographics` | `skills/infographics` | Create professional infographics using Nano Banana Pro AI with smart iterative r |
+| `iso-13485-certification` | `skills/iso-13485-certification` | Comprehensive toolkit for preparing ISO 13485 certification documentation for me |
+| `labarchive-integration` | `skills/labarchive-integration` | Electronic lab notebook API integration. Access notebooks, manage entries/attach |
+| `lamindb` | `skills/lamindb` | Use when working with LaminDB, the open-source lineage-native lakehouse for biol |
+| `latchbio-integration` | `skills/latchbio-integration` | Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @wo |
+| `latex-posters` | `skills/latex-posters` | Create professional research posters in LaTeX using beamerposter, tikzposter, or |
+| `liteparse` | `skills/liteparse` | Local document and PDF parsing with spatial text and bounding boxes. Use for ext |
+| `literature-review` | `skills/literature-review` | Conduct comprehensive, systematic literature reviews using multiple academic dat |
+| `markdown-mermaid-writing` | `skills/markdown-mermaid-writing` | Comprehensive markdown and Mermaid diagram writing skill. Use when creating any  |
+| `market-research-reports` | `skills/market-research-reports` | Generate comprehensive market research reports (50+ pages) in the style of top c |
+| `markitdown` | `skills/markitdown` | Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX,  |
+| `matchms` | `skills/matchms` | Spectral similarity and compound identification for metabolomics. Use for compar |
+| `matlab` | `skills/matlab` | MATLAB and GNU Octave numerical computing for matrix operations, data analysis,  |
+| `matplotlib` | `skills/matplotlib` | Low-level plotting library for full customization. Use when you need fine-graine |
+| `medchem` | `skills/medchem` | Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipi |
+| `modal` | `skills/modal` | Modal is a serverless cloud platform for running Python on demand, including on- |
+| `molecular-dynamics` | `skills/molecular-dynamics` | Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set u |
+| `molfeat` | `skills/molfeat` | Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pre |
+| `networkx` | `skills/networkx` | Create, analyze, and visualize complex networks and graphs in Python with Networ |
+| `neurokit2` | `skills/neurokit2` | Comprehensive biosignal processing toolkit for analyzing physiological data incl |
+| `neuropixels-analysis` | `skills/neuropixels-analysis` | Analyze Neuropixels extracellular recordings end-to-end with SpikeInterface. Cov |
+| `nextflow` | `skills/nextflow` | Build, run, and debug Nextflow data pipelines and nf-core workflows end to end.  |
+| `omero-integration` | `skills/omero-integration` | Microscopy data management platform. Access images via Python, retrieve datasets |
+| `onekgpd` | `skills/onekgpd` | > |
+| `open-notebook` | `skills/open-notebook` | Self-hosted, open-source alternative to Google NotebookLM for AI-powered researc |
+| `opentrons-integration` | `skills/opentrons-integration` | Official Opentrons Protocol API for OT-2 and Flex robots. Use when writing proto |
+| `optimize-for-gpu` | `skills/optimize-for-gpu` | GPU-accelerate Python code using CuPy, Numba CUDA, Warp, cuDF, cuML, cuGraph, Kv |
+| `pacsomatic` | `skills/pacsomatic` | Operator toolkit for nf-core/pacsomatic matched tumor-normal workflows from BAM  |
+| `paper-lookup` | `skills/paper-lookup` | Search 10 academic literature APIs for papers, preprints, citations, and open-ac |
+| `paperzilla` | `skills/paperzilla` | Chat with your agent about projects, recommendations, and canonical papers in Pa |
+| `parallel-web` | `skills/parallel-web` | Use Parallel CLI for web search, URL extraction, deep research, structured data  |
+| `pathml` | `skills/pathml` | Full-featured computational pathology toolkit. Use for advanced WSI analysis inc |
+| `pathway-enrichment` | `skills/pathway-enrichment` | Run pathway and gene-set enrichment analysis on gene lists or ranked gene data,  |
+| `pdf` | `skills/pdf` | Use this skill whenever the user wants to do anything with PDF files. This inclu |
+| `peer-review` | `skills/peer-review` | Structured manuscript/grant review with checklist-based evaluation. Use when wri |
+| `pennylane` | `skills/pennylane` | Hardware-agnostic quantum ML framework with automatic differentiation. Use when  |
+| `phylogenetics` | `skills/phylogenetics` | Build and analyze phylogenetic trees using MAFFT (multiple alignment), IQ-TREE 2 |
+| `pi-agent` | `skills/pi-agent` | Build with and use Pi, the minimal terminal coding harness. Use for installing P |
+| `polars` | `skills/polars` | High-performance DataFrame library for Python ETL, analytics, and pandas migrati |
+| `polars-bio` | `skills/polars-bio` | High-performance genomic interval operations and bioinformatics file I/O on Pola |
+| `pptx` | `skills/pptx` | Use this skill any time a .pptx file is involved in any way — as input, output,  |
+| `pptx-posters` | `skills/pptx-posters` | Create research posters using HTML/CSS that can be exported to PDF or PPTX. Use  |
+| `primekg` | `skills/primekg` | Query the Precision Medicine Knowledge Graph (PrimeKG) for multiscale biological |
+| `protocolsio-integration` | `skills/protocolsio-integration` | Integration with protocols.io API for managing scientific protocols. This skill  |
+| `pufferlib` | `skills/pufferlib` | High-performance reinforcement learning framework optimized for speed and scale. |
+| `pydeseq2` | `skills/pydeseq2` | Differential gene expression analysis for bulk RNA-seq with PyDESeq2, including  |
+| `pydicom` | `skills/pydicom` | Python library for working with DICOM (Digital Imaging and Communications in Med |
+| `pyhealth` | `skills/pyhealth` | Build clinical/healthcare deep-learning pipelines with PyHealth — loading EHR/si |
+| `pylabrobot` | `skills/pylabrobot` | Vendor-agnostic lab automation framework. Use when controlling multiple equipmen |
+| `pymatgen` | `skills/pymatgen` | Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, ban |
+| `pymc` | `skills/pymc` | Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational |
+| `pymoo` | `skills/pymoo` | Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts |
+| `pyopenms` | `skills/pyopenms` | Complete mass spectrometry analysis platform. Use for proteomics and metabolomic |
+| `pysam` | `skills/pysam` | Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FAST |
+| `pytdc` | `skills/pytdc` | Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI |
+| `pytorch-lightning` | `skills/pytorch-lightning` | Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorc |
+| `pyzotero` | `skills/pyzotero` | Interact with Zotero reference management libraries using the pyzotero Python cl |
+| `qiskit` | `skills/qiskit` | IBM quantum computing framework. Use when targeting IBM Quantum hardware, workin |
+| `qutip` | `skills/qutip` | Quantum physics simulation library for open quantum systems. Use when studying m |
+| `rdkit` | `skills/rdkit` | Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing,  |
+| `research-grants` | `skills/research-grants` | Write competitive research proposals for NSF, NIH, DOE, DARPA, and Taiwan NSTC.  |
+| `research-lookup` | `skills/research-lookup` | Compile current scholarly evidence for a scientific manuscript or research brief |
+| `rowan` | `skills/rowan` | Rowan is a cloud-native molecular modeling and medicinal-chemistry workflow plat |
+| `scanpy` | `skills/scanpy` | Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimen |
+| `scholar-evaluation` | `skills/scholar-evaluation` | Systematically evaluate scholarly work using the ScholarEval framework, providin |
+| `scientific-brainstorming` | `skills/scientific-brainstorming` | Creative research ideation and exploration. Use for open-ended brainstorming ses |
+| `scientific-critical-thinking` | `skills/scientific-critical-thinking` | Evaluate scientific claims and evidence quality. Use for assessing experimental  |
+| `scientific-schematics` | `skills/scientific-schematics` | Create publication-quality scientific diagrams using Nano Banana 2 AI with smart |
+| `scientific-slides` | `skills/scientific-slides` | Build slide decks and presentations for research talks. Use this for making Powe |
+| `scientific-visualization` | `skills/scientific-visualization` | Meta-skill for publication-ready figures. Use when creating journal submission f |
+| `scientific-writing` | `skills/scientific-writing` | Core skill for the deep research and writing tool. Write scientific manuscripts  |
+| `scikit-bio` | `skills/scikit-bio` | Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, dive |
+| `scikit-learn` | `skills/scikit-learn` | Machine learning in Python with scikit-learn. Use when working with supervised l |
+| `scikit-survival` | `skills/scikit-survival` | Comprehensive toolkit for survival analysis and time-to-event modeling in Python |
+| `scvelo` | `skills/scvelo` | RNA velocity analysis with scVelo. Estimate cell state transitions from unsplice |
+| `scvi-tools` | `skills/scvi-tools` | Deep generative models for single-cell omics. Use when you need probabilistic ba |
+| `seaborn` | `skills/seaborn` | Statistical visualization with pandas integration. Use for quick exploration of  |
+| `shap` | `skills/shap` | Model interpretability and explainability using SHAP (SHapley Additive exPlanati |
+| `simpy` | `skills/simpy` | Process-based discrete-event simulation framework in Python. Use this skill when |
+| `stable-baselines3` | `skills/stable-baselines3` | Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2 |
+| `statistical-analysis` | `skills/statistical-analysis` | Guided statistical analysis for research data - test selection, assumption check |
+| `statistical-power` | `skills/statistical-power` | Sample-size and statistical power calculations for planning studies. Use wheneve |
+| `statsmodels` | `skills/statsmodels` | Statistical models library for Python. Use when you need specific model classes  |
+| `sympy` | `skills/sympy` | Use when you need exact symbolic math in Python — algebra, calculus, equation so |
+| `tamarind` | `skills/tamarind` | Access a collection of open-source molecular design and structural biology tools |
+| `tiledbvcf` | `skills/tiledbvcf` | Efficient storage and retrieval of genomic variant data using TileDB. Scalable V |
+| `timesfm-forecasting` | `skills/timesfm-forecasting` | Zero-shot time series forecasting with Google's TimesFM foundation model. Use fo |
+| `torchdrug` | `skills/torchdrug` | PyTorch-native graph neural networks for molecules and proteins. Use when buildi |
+| `torch-geometric` | `skills/torch-geometric` | PyTorch Geometric (PyG) for graph neural networks — node/link/graph classificati |
+| `transformers` | `skills/transformers` | Hugging Face Transformers for loading Hub models, running pipeline inference, te |
+| `treatment-plans` | `skills/treatment-plans` | Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format |
+| `umap-learn` | `skills/umap-learn` | Use UMAP-learn for nonlinear dimensionality reduction, 2D/3D embeddings, cluster |
+| `usfiscaldata` | `skills/usfiscaldata` | Query the U.S. Treasury Fiscal Data REST API for federal financial data. No API  |
+| `vaex` | `skills/vaex` | Use this skill for processing and analyzing large tabular datasets (billions of  |
+| `venue-templates` | `skills/venue-templates` | Access comprehensive LaTeX templates, formatting requirements, and submission gu |
+| `what-if-oracle` | `skills/what-if-oracle` | Run structured What-If scenario analysis with 4–6 branch possibility exploration |
+| `xlsx` | `skills/xlsx` | Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm) where the wo |
+| `zarr-python` | `skills/zarr-python` | Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, paralle |
+
+<a id="src-3"></a>
 ### Leonxlnx/taste-skill
 
 原始仓库: https://github.com/Leonxlnx/taste-skill.git
@@ -50,7 +208,7 @@
 | `redesign-existing-projects` | `skills/redesign-skill` | Upgrades existing websites and apps to premium quality. Audits current design, i |
 | `stitch-design-taste` | `skills/stitch-skill` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN. |
 
-<a id="src-3"></a>
+<a id="src-4"></a>
 ### nextlevelbuilder/ui-ux-pro-max-skill
 
 原始仓库: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
@@ -65,7 +223,7 @@
 | `ui-styling` | `.claude/skills/ui-styling` | Create beautiful, accessible user interfaces with shadcn/ui components (built on |
 | `ui-ux-pro-max` | `.claude/skills/ui-ux-pro-max` | UI/UX design intelligence for web and mobile. Searchable local database with 84  |
 
-<a id="src-4"></a>
+<a id="src-5"></a>
 ### phuryn/pm-skills
 
 原始仓库: https://github.com/phuryn/pm-skills.git
