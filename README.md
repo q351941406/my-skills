@@ -1,11 +1,22 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-07-18 15:41:37 UTC）。
+由 MultiAgentSystem 自动生成（2026-07-18 15:43:02 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
+
+## 目录
+
+- [greensock/gsap-skills](#src-1)
+- [Leonxlnx/taste-skill](#src-2)
+- [nextlevelbuilder/ui-ux-pro-max-skill](#src-3)
+- [phuryn/pm-skills](#src-4)
+- [本地技能](#local)
 
 ## GitHub 来源
 
-### https://github.com/greensock/gsap-skills.git
+<a id="src-1"></a>
+### greensock/gsap-skills
+
+原始仓库: https://github.com/greensock/gsap-skills.git
 
 | 安装名 | 子路径 | 描述 |
 | --- | --- | --- |
@@ -18,7 +29,10 @@
 | `gsap-timeline` | `skills/gsap-timeline` | Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting |
 | `gsap-utils` | `skills/gsap-utils` | Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, ra |
 
-### https://github.com/Leonxlnx/taste-skill.git
+<a id="src-2"></a>
+### Leonxlnx/taste-skill
+
+原始仓库: https://github.com/Leonxlnx/taste-skill.git
 
 | 安装名 | 子路径 | 描述 |
 | --- | --- | --- |
@@ -36,7 +50,10 @@
 | `redesign-existing-projects` | `skills/redesign-skill` | Upgrades existing websites and apps to premium quality. Audits current design, i |
 | `stitch-design-taste` | `skills/stitch-skill` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN. |
 
-### https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
+<a id="src-3"></a>
+### nextlevelbuilder/ui-ux-pro-max-skill
+
+原始仓库: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
 
 | 安装名 | 子路径 | 描述 |
 | --- | --- | --- |
@@ -48,7 +65,10 @@
 | `ui-styling` | `.claude/skills/ui-styling` | Create beautiful, accessible user interfaces with shadcn/ui components (built on |
 | `ui-ux-pro-max` | `.claude/skills/ui-ux-pro-max` | UI/UX design intelligence for web and mobile. Searchable local database with 84  |
 
-### https://github.com/phuryn/pm-skills.git
+<a id="src-4"></a>
+### phuryn/pm-skills
+
+原始仓库: https://github.com/phuryn/pm-skills.git
 
 | 安装名 | 子路径 | 描述 |
 | --- | --- | --- |
@@ -121,6 +141,7 @@
 | `value-prop-statements` | `pm-marketing-growth/skills/value-prop-statements` | Generate value proposition statements for marketing, sales, and onboarding from  |
 | `wwas` | `pm-execution/skills/wwas` | Create product backlog items in Why-What-Acceptance format — independent, valuab |
 
+<a id="local"></a>
 ## 本地技能
 
 | 名称 | 描述 |
