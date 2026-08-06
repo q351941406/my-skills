@@ -1,17 +1,18 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-07-21 19:54:18 UTC）。
+由 MultiAgentSystem 自动生成（2026-08-06 22:51:00 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## 目录
 
 - [emilkowalski/skills](#src-1)
-- [greensock/gsap-skills](#src-2)
-- [K-Dense-AI/scientific-agent-skills](#src-3)
-- [Leonxlnx/taste-skill](#src-4)
-- [mattpocock/skills](#src-5)
-- [nextlevelbuilder/ui-ux-pro-max-skill](#src-6)
-- [phuryn/pm-skills](#src-7)
+- [github/awesome-copilot](#src-2)
+- [greensock/gsap-skills](#src-3)
+- [K-Dense-AI/scientific-agent-skills](#src-4)
+- [Leonxlnx/taste-skill](#src-5)
+- [mattpocock/skills](#src-6)
+- [nextlevelbuilder/ui-ux-pro-max-skill](#src-7)
+- [phuryn/pm-skills](#src-8)
 - [本地技能](#local)
 
 ## GitHub 来源
@@ -31,6 +32,15 @@
 | `review-animations` | `skills/review-animations` | Reviews animation and motion code against a high craft bar derived from Emil Kow |
 
 <a id="src-2"></a>
+### github/awesome-copilot
+
+原始仓库: https://github.com/github/awesome-copilot.git
+
+| 安装名 | 子路径 | 描述 |
+| --- | --- | --- |
+| `excalidraw-diagram-generator` | `skills/excalidraw-diagram-generator` | Generate Excalidraw diagrams from natural language descriptions. Use when asked  |
+
+<a id="src-3"></a>
 ### greensock/gsap-skills
 
 原始仓库: https://github.com/greensock/gsap-skills.git
@@ -46,7 +56,7 @@
 | `gsap-timeline` | `skills/gsap-timeline` | Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting |
 | `gsap-utils` | `skills/gsap-utils` | Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, ra |
 
-<a id="src-3"></a>
+<a id="src-4"></a>
 ### K-Dense-AI/scientific-agent-skills
 
 原始仓库: https://github.com/K-Dense-AI/scientific-agent-skills.git
@@ -203,7 +213,7 @@
 | `xlsx` | `skills/xlsx` | Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm) where the wo |
 | `zarr-python` | `skills/zarr-python` | Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, paralle |
 
-<a id="src-4"></a>
+<a id="src-5"></a>
 ### Leonxlnx/taste-skill
 
 原始仓库: https://github.com/Leonxlnx/taste-skill.git
@@ -224,7 +234,7 @@
 | `redesign-existing-projects` | `skills/redesign-skill` | Upgrades existing websites and apps to premium quality. Audits current design, i |
 | `stitch-design-taste` | `skills/stitch-skill` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN. |
 
-<a id="src-5"></a>
+<a id="src-6"></a>
 ### mattpocock/skills
 
 原始仓库: https://github.com/mattpocock/skills.git
@@ -273,7 +283,7 @@
 | `writing-great-skills` | `skills/productivity/writing-great-skills` | Reference for writing and editing skills well — the vocabulary and principles th |
 | `writing-shape` | `skills/in-progress/writing-shape` | Writing, exploit — shape raw material into an article, paragraph by paragraph. |
 
-<a id="src-6"></a>
+<a id="src-7"></a>
 ### nextlevelbuilder/ui-ux-pro-max-skill
 
 原始仓库: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
@@ -288,7 +298,7 @@
 | `ui-styling` | `.claude/skills/ui-styling` | Create beautiful, accessible user interfaces with shadcn/ui components (built on |
 | `ui-ux-pro-max` | `.claude/skills/ui-ux-pro-max` | UI/UX design intelligence for web and mobile. Searchable local database with 84  |
 
-<a id="src-7"></a>
+<a id="src-8"></a>
 ### phuryn/pm-skills
 
 原始仓库: https://github.com/phuryn/pm-skills.git
