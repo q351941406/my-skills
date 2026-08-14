@@ -1,23 +1,56 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-08-08 16:20:05 UTC）。
+由 MultiAgentSystem 自动生成（2026-08-14 08:17:13 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## 目录
 
-- [emilkowalski/skills](#src-1)
-- [github/awesome-copilot](#src-2)
-- [greensock/gsap-skills](#src-3)
-- [K-Dense-AI/scientific-agent-skills](#src-4)
-- [Leonxlnx/taste-skill](#src-5)
-- [mattpocock/skills](#src-6)
-- [nextlevelbuilder/ui-ux-pro-max-skill](#src-7)
-- [phuryn/pm-skills](#src-8)
+- [addyosmani/agent-skills](#src-1)
+- [emilkowalski/skills](#src-2)
+- [github/awesome-copilot](#src-3)
+- [greensock/gsap-skills](#src-4)
+- [K-Dense-AI/scientific-agent-skills](#src-5)
+- [Leonxlnx/taste-skill](#src-6)
+- [mattpocock/skills](#src-7)
+- [nextlevelbuilder/ui-ux-pro-max-skill](#src-8)
+- [phuryn/pm-skills](#src-9)
 - [本地技能](#local)
 
 ## GitHub 来源
 
 <a id="src-1"></a>
+### addyosmani/agent-skills
+
+原始仓库: https://github.com/addyosmani/agent-skills.git
+
+| 安装名 | 子路径 | 描述 |
+| --- | --- | --- |
+| `api-and-interface-design` | `skills/api-and-interface-design` | Guides stable API and interface design. Use when designing APIs, module boundari |
+| `browser-testing-with-devtools` | `skills/browser-testing-with-devtools` | Tests in real browsers via Chrome DevTools MCP. Use when building or debugging a |
+| `ci-cd-and-automation` | `skills/ci-cd-and-automation` | Automates CI/CD pipeline setup. Use when setting up or modifying build and deplo |
+| `code-review-and-quality` | `skills/code-review-and-quality` | Conducts multi-axis code review. Use before merging any change. Use when reviewi |
+| `code-simplification` | `skills/code-simplification` | Simplifies code for clarity. Use when refactoring code for clarity without chang |
+| `context-engineering` | `skills/context-engineering` | Optimizes agent context setup. Use when starting a new session, when agent outpu |
+| `debugging-and-error-recovery` | `skills/debugging-and-error-recovery` | Guides systematic root-cause debugging. Use when tests fail, builds break, behav |
+| `deprecation-and-migration` | `skills/deprecation-and-migration` | Manages deprecation and migration. Use when removing old systems, APIs, or featu |
+| `documentation-and-adrs` | `skills/documentation-and-adrs` | Records decisions and documentation. Use when making architectural decisions, ch |
+| `doubt-driven-development` | `skills/doubt-driven-development` | Subjects every non-trivial decision to a fresh-context adversarial review before |
+| `frontend-ui-engineering` | `skills/frontend-ui-engineering` | Builds production-quality, accessible, responsive user-facing UIs. Use when buil |
+| `git-workflow-and-versioning` | `skills/git-workflow-and-versioning` | Structures git workflow practices. Use when making any code change. Use when com |
+| `idea-refine` | `skills/idea-refine` | Refines raw ideas into sharp, actionable concepts through structured divergent a |
+| `incremental-implementation` | `skills/incremental-implementation` | Delivers changes incrementally. Use when implementing any feature or change that |
+| `interview-me` | `skills/interview-me` | Extracts what the user actually wants instead of what they think they should wan |
+| `observability-and-instrumentation` | `skills/observability-and-instrumentation` | Instruments code so production behavior is visible and diagnosable. Use when add |
+| `performance-optimization` | `skills/performance-optimization` | Optimizes application performance across frontend, backend, queries, and databas |
+| `planning-and-task-breakdown` | `skills/planning-and-task-breakdown` | Breaks work into ordered tasks. Use when you have a spec or clear requirements a |
+| `security-and-hardening` | `skills/security-and-hardening` | Hardens code against vulnerabilities. Use when handling user input, authenticati |
+| `shipping-and-launch` | `skills/shipping-and-launch` | Prepares production launches. Use when preparing to deploy to production. Use wh |
+| `source-driven-development` | `skills/source-driven-development` | Grounds every implementation decision in official documentation. Use when you wa |
+| `spec-driven-development` | `skills/spec-driven-development` | Creates specs before coding. Use when starting a new project, feature, or signif |
+| `test-driven-development` | `skills/test-driven-development` | Drives development with tests. Use when implementing any logic, fixing any bug,  |
+| `using-agent-skills` | `skills/using-agent-skills` | Discovers and invokes agent skills. Use when starting a session or when you need |
+
+<a id="src-2"></a>
 ### emilkowalski/skills
 
 原始仓库: https://github.com/emilkowalski/skills.git
@@ -31,7 +64,7 @@
 | `improve-animations` | `skills/improve-animations` | Survey a codebase's animation and motion code as a senior motion advisor, then p |
 | `review-animations` | `skills/review-animations` | Reviews animation and motion code against a high craft bar derived from Emil Kow |
 
-<a id="src-2"></a>
+<a id="src-3"></a>
 ### github/awesome-copilot
 
 原始仓库: https://github.com/github/awesome-copilot.git
@@ -40,7 +73,7 @@
 | --- | --- | --- |
 | `excalidraw-diagram-generator` | `skills/excalidraw-diagram-generator` | Generate Excalidraw diagrams from natural language descriptions. Use when asked  |
 
-<a id="src-3"></a>
+<a id="src-4"></a>
 ### greensock/gsap-skills
 
 原始仓库: https://github.com/greensock/gsap-skills.git
@@ -56,7 +89,7 @@
 | `gsap-timeline` | `skills/gsap-timeline` | Official GSAP skill for timelines — gsap.timeline(), position parameter, nesting |
 | `gsap-utils` | `skills/gsap-utils` | Official GSAP skill for gsap.utils — clamp, mapRange, normalize, interpolate, ra |
 
-<a id="src-4"></a>
+<a id="src-5"></a>
 ### K-Dense-AI/scientific-agent-skills
 
 原始仓库: https://github.com/K-Dense-AI/scientific-agent-skills.git
@@ -213,7 +246,7 @@
 | `xlsx` | `skills/xlsx` | Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm) where the wo |
 | `zarr-python` | `skills/zarr-python` | Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, paralle |
 
-<a id="src-5"></a>
+<a id="src-6"></a>
 ### Leonxlnx/taste-skill
 
 原始仓库: https://github.com/Leonxlnx/taste-skill.git
@@ -234,7 +267,7 @@
 | `redesign-existing-projects` | `skills/redesign-skill` | Upgrades existing websites and apps to premium quality. Audits current design, i |
 | `stitch-design-taste` | `skills/stitch-skill` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN. |
 
-<a id="src-6"></a>
+<a id="src-7"></a>
 ### mattpocock/skills
 
 原始仓库: https://github.com/mattpocock/skills.git
@@ -283,7 +316,7 @@
 | `writing-great-skills` | `skills/productivity/writing-great-skills` | Reference for writing and editing skills well — the vocabulary and principles th |
 | `writing-shape` | `skills/in-progress/writing-shape` | Writing, exploit — shape raw material into an article, paragraph by paragraph. |
 
-<a id="src-7"></a>
+<a id="src-8"></a>
 ### nextlevelbuilder/ui-ux-pro-max-skill
 
 原始仓库: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git
@@ -298,7 +331,7 @@
 | `ui-styling` | `.claude/skills/ui-styling` | Create beautiful, accessible user interfaces with shadcn/ui components (built on |
 | `ui-ux-pro-max` | `.claude/skills/ui-ux-pro-max` | UI/UX design intelligence for web and mobile. Searchable local database with 84  |
 
-<a id="src-8"></a>
+<a id="src-9"></a>
 ### phuryn/pm-skills
 
 原始仓库: https://github.com/phuryn/pm-skills.git
@@ -381,3 +414,4 @@
 | --- | --- |
 | `deploy-to-vercel` | Deploy applications and websites to Vercel. Use when the user requests deploymen |
 | `ripgrep` | 当需要使用 ripgrep (rg) 命令进行文件搜索、内容搜索、正则匹配、代码搜索时，此技能提供完整的选项参考和用法指南。涵盖基础搜索、自动过滤、glob/文 |
+| `sk-5ada73e0` | desc |
