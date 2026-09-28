@@ -2035,9 +2035,9 @@
     "scripts": [
       "scripts/split-excalidraw-library.py",
       "scripts/add-icon-to-diagram.py",
-      "scripts/README.md",
+      "scripts/add-arrow.py",
       "scripts/.gitignore",
-      "scripts/add-arrow.py"
+      "scripts/README.md"
     ],
     "references": [
       "references/excalidraw-schema.md",
