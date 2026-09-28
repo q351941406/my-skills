@@ -1,6 +1,6 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-09-28 07:48:37 UTC）。
+由 MultiAgentSystem 自动生成（2026-09-28 07:50:23 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## 目录
@@ -14,6 +14,7 @@
 - [mattpocock/skills](#src-7)
 - [nextlevelbuilder/ui-ux-pro-max-skill](#src-8)
 - [phuryn/pm-skills](#src-9)
+- [vercel-labs/agent-browser](#src-10)
 - [本地技能](#local)
 
 ## GitHub 来源
@@ -406,6 +407,24 @@
 | `value-proposition` | `pm-product-strategy/skills/value-proposition` | Design a detailed value proposition using a 6-part JTBD template — Who, Why, Wha |
 | `value-prop-statements` | `pm-marketing-growth/skills/value-prop-statements` | Generate value proposition statements for marketing, sales, and onboarding from  |
 | `wwas` | `pm-execution/skills/wwas` | Create product backlog items in Why-What-Acceptance format — independent, valuab |
+
+<a id="src-10"></a>
+### vercel-labs/agent-browser
+
+原始仓库: https://github.com/vercel-labs/agent-browser
+
+| 安装名 | 子路径 | 描述 |
+| --- | --- | --- |
+| `agent-browser` | `skills/agent-browser` | Browser automation CLI for AI agents. Use when the user needs to interact with w |
+| `agentcore` | `skill-data/agentcore` | Run agent-browser on AWS Bedrock AgentCore cloud browsers. Use when the user wan |
+| `core` | `skill-data/core` | Core agent-browser usage guide. Read this before running any agent-browser comma |
+| `derive-client` | `skill-data/derive-client` | Reverse-engineer a website's internal API by recording browser traffic into a HA |
+| `dogfood` | `skill-data/dogfood` | Systematically explore and test a web application to find bugs, UX issues, and o |
+| `electron` | `skill-data/electron` | Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, |
+| `protected-vercel-deployments` | `skill-data/protected-vercel-deployments` | Access and test Vercel deployments protected by Vercel Authentication, SSO, or D |
+| `slack` | `skill-data/slack` | Interact with Slack workspaces using browser automation. Use when the user needs |
+| `vercel-sandbox` | `skill-data/vercel-sandbox` | Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation |
+| `webmcp-gen` | `skill-data/webmcp-gen` | Build and validate experimental WebMCP tools for an existing web page. Use when  |
 
 <a id="local"></a>
 ## 本地技能
