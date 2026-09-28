@@ -1,6 +1,6 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-09-28 07:50:23 UTC）。
+由 MultiAgentSystem 自动生成（2026-09-28 10:38:15 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## 目录
@@ -15,6 +15,7 @@
 - [nextlevelbuilder/ui-ux-pro-max-skill](#src-8)
 - [phuryn/pm-skills](#src-9)
 - [vercel-labs/agent-browser](#src-10)
+- [vercel-labs/skills](#src-11)
 - [本地技能](#local)
 
 ## GitHub 来源
@@ -425,6 +426,15 @@
 | `slack` | `skill-data/slack` | Interact with Slack workspaces using browser automation. Use when the user needs |
 | `vercel-sandbox` | `skill-data/vercel-sandbox` | Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation |
 | `webmcp-gen` | `skill-data/webmcp-gen` | Build and validate experimental WebMCP tools for an existing web page. Use when  |
+
+<a id="src-11"></a>
+### vercel-labs/skills
+
+原始仓库: https://github.com/vercel-labs/skills
+
+| 安装名 | 子路径 | 描述 |
+| --- | --- | --- |
+| `find-skills` | `skills/find-skills` | Helps users discover and install agent skills when they ask questions like "how  |
 
 <a id="local"></a>
 ## 本地技能
