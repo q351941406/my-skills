@@ -1,6 +1,6 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-09-28 10:38:15 UTC）。
+由 MultiAgentSystem 自动生成（2026-10-28 16:09:18 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## 目录
@@ -331,7 +331,7 @@
 | `design-system` | `.claude/skills/design-system` | Token architecture, component specifications, and slide generation. Three-layer  |
 | `slides` | `.claude/skills/slides` | Create strategic HTML presentations with Chart.js, design tokens, responsive lay |
 | `ui-styling` | `.claude/skills/ui-styling` | Create beautiful, accessible user interfaces with shadcn/ui components (built on |
-| `ui-ux-pro-max` | `.claude/skills/ui-ux-pro-max` | UI/UX design intelligence for web and mobile. Searchable local database with 84  |
+| `ui-ux-pro-max` | `.claude/skills/ui-ux-pro-max` | UI/UX design intelligence for web, mobile, and desktop. This skill should be use |
 
 <a id="src-9"></a>
 ### phuryn/pm-skills
