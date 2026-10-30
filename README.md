@@ -1,6 +1,6 @@
 # Skills Backup
 
-由 MultiAgentSystem 自动生成（2026-10-30 21:03:54 UTC）。
+由 MultiAgentSystem 自动生成（2026-10-30 21:11:43 UTC）。
 本仓库是 skills/ 目录的镜像备份，每个 skill 的原始来源如下。
 
 ## 目录
@@ -33,24 +33,24 @@
 | `code-review-and-quality` | `skills/code-review-and-quality` | Conducts multi-axis code review. Use before merging any change. Use when reviewi |
 | `code-simplification` | `skills/code-simplification` | Simplifies code for clarity. Use when refactoring code for clarity without chang |
 | `context-engineering` | `skills/context-engineering` | Optimizes agent context setup. Use when starting a new session, when agent outpu |
-| `debugging-and-error-recovery` | `skills/debugging-and-error-recovery` | Guides systematic root-cause debugging. Use when tests fail, builds break, behav |
+| `debugging-and-error-recovery` | `skills/debugging-and-error-recovery` | Guides systematic root-cause debugging. Use when tests fail, builds break, somet |
 | `deprecation-and-migration` | `skills/deprecation-and-migration` | Manages deprecation and migration. Use when removing old systems, APIs, or featu |
-| `documentation-and-adrs` | `skills/documentation-and-adrs` | Records decisions and documentation. Use when making architectural decisions, ch |
+| `documentation-and-adrs` | `skills/documentation-and-adrs` | Records decisions and documentation. Use when you need to document an architectu |
 | `doubt-driven-development` | `skills/doubt-driven-development` | Subjects every non-trivial decision to a fresh-context adversarial review before |
 | `frontend-ui-engineering` | `skills/frontend-ui-engineering` | Builds production-quality, accessible, responsive user-facing UIs. Use when buil |
 | `git-workflow-and-versioning` | `skills/git-workflow-and-versioning` | Structures git workflow practices. Use when making any code change. Use when com |
 | `idea-refine` | `skills/idea-refine` | Refines raw ideas into sharp, actionable concepts through structured divergent a |
-| `incremental-implementation` | `skills/incremental-implementation` | Delivers changes incrementally. Use when implementing any feature or change that |
+| `incremental-implementation` | `skills/incremental-implementation` | Delivers changes incrementally in thin, verifiable slices. Use when implementing |
 | `interview-me` | `skills/interview-me` | Extracts what the user actually wants instead of what they think they should wan |
 | `observability-and-instrumentation` | `skills/observability-and-instrumentation` | Instruments code so production behavior is visible and diagnosable. Use when add |
 | `performance-optimization` | `skills/performance-optimization` | Optimizes application performance across frontend, backend, queries, and databas |
 | `planning-and-task-breakdown` | `skills/planning-and-task-breakdown` | Breaks work into ordered tasks. Use when you have a spec or clear requirements a |
-| `security-and-hardening` | `skills/security-and-hardening` | Hardens code against vulnerabilities. Use when handling user input, authenticati |
-| `shipping-and-launch` | `skills/shipping-and-launch` | Prepares production launches. Use when preparing to deploy to production. Use wh |
+| `security-and-hardening` | `skills/security-and-hardening` | Hardens code against vulnerabilities. Use when auditing an input handler for vul |
+| `shipping-and-launch` | `skills/shipping-and-launch` | Prepares production launches. Use when preparing to deploy to production, or whe |
 | `source-driven-development` | `skills/source-driven-development` | Grounds every implementation decision in official documentation. Use when you wa |
 | `spec-driven-development` | `skills/spec-driven-development` | Creates specs before coding. Use when starting a new project, feature, or signif |
-| `test-driven-development` | `skills/test-driven-development` | Drives development with tests. Use when implementing any logic, fixing any bug,  |
-| `using-agent-skills` | `skills/using-agent-skills` | Discovers and invokes agent skills. Use when starting a session or when you need |
+| `test-driven-development` | `skills/test-driven-development` | Drives development with tests using the red-green-refactor loop. Use when implem |
+| `using-agent-skills` | `skills/using-agent-skills` | Discovers and invokes agent skills. Use when starting a session, or when you nee |
 
 <a id="src-2"></a>
 ### emilkowalski/skills
